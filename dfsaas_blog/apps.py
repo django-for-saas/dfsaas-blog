@@ -1,5 +1,7 @@
 from django.apps import AppConfig
 
 
-class ContentConfig(AppConfig):
-    name = 'blog'
+class DFSAASBlogAppConfig(AppConfig):
+    name = 'dfsaas_blog'
+    verbose_name = "Blog"
+    label = 'blog'

@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'dfsaas_blog',
+    'dfsaas_blog.apps.DFSAASBlogAppConfig',
 
     "ckeditor",
     "ckeditor_uploader",
