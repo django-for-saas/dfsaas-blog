@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class DFSAASBlogAppConfig(AppConfig):
     name = 'dfsaas_blog'
     verbose_name = "Blog"
-    label = 'blog'
+    label = 'dfsaas_blog'
