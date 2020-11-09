@@ -7,10 +7,14 @@ Blog is a Django app to run blog.
 Quick start
 -----------
 
-1. Add "dfsaas_blog" to your INSTALLED_APPS setting like this::
+1. Add "dfsaas_blog" to your INSTALLED_APPS setting like this, along with `ckeditor` and `taggit`::
 
     INSTALLED_APPS = [
         ...
+
+        'ckeditor',
+        'ckeditor_uploader',
+        'taggit',
         'dfsaas_blog',
     ]
 

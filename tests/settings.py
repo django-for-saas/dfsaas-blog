@@ -43,6 +43,9 @@ INSTALLED_APPS = (
     'django.contrib.sites',
 
     'dfsaas_blog',
+
+    "ckeditor",
+    "ckeditor_uploader",
     'tests',
     'taggit',
 )
